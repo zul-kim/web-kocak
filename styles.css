@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#surpriseButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #de0707;
+    color: rgb(240, 237, 240);
+    border: none;
+    border-radius: 5px;
+}
+
+#surpriseMessage {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#surpriseMessage.show {
+    display: block;
+    opacity: 1;
+}
+#ygkedua {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1c0bb4;
+    color: rgb(240, 237, 240);
+    border: none;
+    border-radius: 5px;
+}
+
+#surpriseMessage {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#surpriseMessage.show {
+    display: block;
+    opacity: 1;
+}
+
